@@ -153,7 +153,7 @@ p:last-of-type {
   font-size: 16px;
 }
 .sec-1-carousel {
-  background-image: url(/img/carousel-2.jpg);
+  background-image: url(../img/carousel-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -288,7 +288,7 @@ p:last-of-type {
   transform: skewX(-171deg) translateX(50px);
 }
 .sec-3 > .sec-3-image > .image-skew-image {
-  background-image: url(/img/about.jpg);
+  background-image: url(../img/about.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 100vw;
@@ -634,7 +634,7 @@ div[class*="ben-"]:not(:last-child) {
 /* Small devices (landscape phones, less than 768px) */
 @media screen and (min-width: 577px) and (max-width: 767.98px) {
   .sec-1 {
-    background-image: url(/img/carousel-2.jpg);
+    background-image: url(../img/carousel-2.jpg);
   }
   .sec-1 > .hero-sec-1 {
     background-color: var(--mainColorOverlay);
